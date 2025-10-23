@@ -3,7 +3,7 @@
 This project was developed as part of a **Frontend Technical Challenge** using **Next.js, React Query, and TypeScript**.  
 It demonstrates a clean architecture with authentication, protected routes, and virtualized rendering for high performance.
 
-- The **login** is a **fake authentication flow** — it generates and stores a mock token to simulate real login behavior.  
+- The **login** is a **fake authentication flow**, it generates and stores a mock token to simulate real login behavior.  
 - The **API** uses a simulated endpoint (`fakestoreapi.com`) to fetch 2000 items, displayed through a **virtualized list** built with React Virtuoso.  
 - The architecture follows **SOLID principles**, using separation of concerns between services, hooks, and components.  
 
@@ -60,11 +60,11 @@ The **logout** process clears the token from both memory and `localStorage`, inv
 ---
 
 ### Theoretical Backend Efficiency Improvements
-While this challenge uses simulated data (`fakestoreapi`), several real-world backend optimizations are proposed:
+While this challenge uses simulated data (`fakestoreapi`), several real world backend optimizations are proposed:
 
 1. **Pagination / Infinite Scroll:** Avoid loading all 2000 items at once.  
 2. **Payload reduction.  
-3. **GraphQL:** Combine multiple requests into a single round-trip.
+3. **GraphQL:** Combine multiple requests into a single roundtrip.
 
 ---
 
