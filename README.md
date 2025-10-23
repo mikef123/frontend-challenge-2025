@@ -9,7 +9,7 @@ It demonstrates a clean architecture with authentication, protected routes, and 
 
 ## Installation & Setup
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 git clone https://github.com/mikef123/frontend-challenge-2025.git
 cd frontend-challenge-2025
