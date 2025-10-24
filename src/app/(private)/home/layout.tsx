@@ -24,7 +24,7 @@ export default function PrivateLayout({ children }: { children: ReactNode }) {
 
   return (
     <div className="min-h-screen">
-      <header className="mb-4 flex items-center justify-between p-4 border-b">
+      <header className="mb-4 flex items-center justify-end p-4 border-b">
         <button
           className="bg-red-600 text-white px-4 py-2 rounded"
           onClick={logout}
